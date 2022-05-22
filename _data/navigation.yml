@@ -1,12 +1,111 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "Gsoc"
+    url: /gsoc/gsoc
+  - title: "Projects"
+    url: /projects/ml/supervised_learning
+  - title: "Notes"
+    url: /notes/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
+
+gsoc_nav:
+  - title: "Community Bonding Period"
+    children:
+      - title : "Week 1 (May 21 - May 28)"
+        url: /gsoc/community-bonding/week1
+      - title : "Week 2 (May 29 - June 4)"
+        url: /gsoc/community-bonding/week2
+      - title: "Week 3 (June 5 - June 12)"
+        url: /gsoc/community-bonding/week3
+  - title: "Phase 1 Evaluation"
+    children: 
+      - title : "Week 4 (June 13 - June 18)"
+        url: /gsoc/week4
+      - title:  "Week 5 (June 19 - June 25)"
+        url: /gsoc/week5
+      - title:  "Week 6 (June 26 - July 2)"
+  - title: "Final Evaluation"
+    children:
+      - title: "Week 7 (July 3 - July 9)"
+        url: /gsoc/week7
+      - title: "Week 8 (July 10 - July 16)"
+        url: /gsoc/week8
+      - title: "Week 9 (July 17 - July 23)"
+        url: /gsoc/week9
+      - title: "Week 10 (July 24 - July 31)"
+        url: /gsoc/week10
+      - title: "Week 11 (Aug 1 - Aug 6)"
+        url: /gsoc/week11
+      - title: "Week 12 (Aug 7 - Aug 13)"
+        url: /gsoc/week12
+      - title: "Week 13 (Aug 14 - Aug 20"
+        url: /gsoc/week13
+      - title: "Week 14 (Aug 21 - Aug 27)"
+        url: /gsoc/week14
+      - title: Week 15 (Aug 28 - Sep 4)  
+        url: /gsoc/week15
+      - title : "Week 16 (Sep 5 - Sep 12)"
+        url: /gsoc/week16
+  - title: "Consolidated Report"
+    url: /gsoc/report      
+
+
+
+others_nav:
+  - title: "Machine Learning"
+    children:
+      - title: "Supervised Learning"
+        url: /projects/ml/supervised_learning
+      - title: "Unsupervised Learning"
+        url: /projects/ml/unsupervised_learning
+
+  - title: "Reinforcement Learning"
+    children:
+      - title: "TD-Lambda"
+        url: /projects/rl_projects/td_lambda
+      - title: "Lunar Lander"
+        url: /projects/rl_projects/lunar_lander
+
+  - title: "Computer Vision"
+    children:
+      - title: "Traffic Light Detection"
+        url: /projects/cv/traffic_light_detection
+      - title: "Marker Detection"
+        url: /projects/cv/marker_detection
+      - title: "Augmented Reality Project"
+        url: /projects/cv/ar_project
+      - title: "Motion Detection"
+        url: /projects/cv/motion_detection
+      - title: "Object Tracking"
+        url: /projects/cv/object_tracking
+      - title: "Face Recognition"
+        url: /projects/cv/face_recognition
+      - title: "Augmented Reality"
+        url: /projects/cv/ar_project
+
+  - title: "AI"
+    children:
+      - title: "Chatbot"
+        url: /projects/ai/
+
+  - title: "AI for Robotics"
+    children:
+      - title: "Navigating through asteroids"
+        url: /projects/air/asteroids
+      - title: "Ice Rover"
+        url: /projects/air/ice_rover
+      - title: "Mars Glider"
+        url: /projects/air/mars_glider
+      - title: "WareHouse"
+        url: /projects/air/warehouse
+        
+
+
+
+
+      
