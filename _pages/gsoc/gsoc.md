@@ -29,4 +29,4 @@ and fine tuning the existing model to achieve better accuracy. In this process, 
 sound effects from noisy or human labeled data sets after they are pre-processed to avoid acoustic domain
 mismatch problems."*
 
-My mentor is Austin Bennett. 
+My mentors are Austin Bennett, Ahmed Ismail Zahran & Mark Turner.
