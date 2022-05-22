@@ -25,32 +25,33 @@ gsoc_nav:
   - title: "Phase 1 Evaluation"
     children: 
       - title : "Week 4 (June 13 - June 18)"
-        url: /gsoc/week4
+        url: /gsoc/phase1/week4
       - title:  "Week 5 (June 19 - June 25)"
-        url: /gsoc/week5
+        url: /gsoc/phase1/week5
       - title:  "Week 6 (June 26 - July 2)"
+        url: /gsoc/phase1/week6
   - title: "Final Evaluation"
     children:
       - title: "Week 7 (July 3 - July 9)"
-        url: /gsoc/week7
+        url: /gsoc/phase2/week7
       - title: "Week 8 (July 10 - July 16)"
-        url: /gsoc/week8
+        url: /gsoc/phase2/week8
       - title: "Week 9 (July 17 - July 23)"
-        url: /gsoc/week9
+        url: /gsoc/phase2/week9
       - title: "Week 10 (July 24 - July 31)"
-        url: /gsoc/week10
+        url: /gsoc/phase2/week10
       - title: "Week 11 (Aug 1 - Aug 6)"
-        url: /gsoc/week11
+        url: /gsoc/phase2/week11
       - title: "Week 12 (Aug 7 - Aug 13)"
-        url: /gsoc/week12
+        url: /gsoc/phase2/week12
       - title: "Week 13 (Aug 14 - Aug 20"
-        url: /gsoc/week13
+        url: /gsoc/phase2/week13
       - title: "Week 14 (Aug 21 - Aug 27)"
-        url: /gsoc/week14
+        url: /gsoc/phase2/week14
       - title: Week 15 (Aug 28 - Sep 4)  
-        url: /gsoc/week15
+        url: /gsoc/phase2/week15
       - title : "Week 16 (Sep 5 - Sep 12)"
-        url: /gsoc/week16
+        url: /gsoc/phase2/week16
   - title: "Consolidated Report"
     url: /gsoc/report      
 
