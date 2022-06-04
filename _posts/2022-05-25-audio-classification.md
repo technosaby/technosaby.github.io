@@ -12,22 +12,22 @@ excerpt: "Audio Classification"
 
 # Background
 
-Poaching is a big problem where selfish people kill animals without knowing the consequences. Sometimes it is very difficult for forest guards to track and find the location of poaching. So Google is [working](https://https://cloud.google.com/blog/products/ai-machine-learning/how-zsl-uses-google-cloud-to-analyse-acoustic-data) with the Zoological Soceity of London to solve this problem by classifying gunshot shots. 
+Poaching is a big problem where selfish people kill animals without knowing the consequences. Sometimes it is very difficult for forest guards to track and find the location of poaching. So Google is [working](https://https://cloud.google.com/blog/products/ai-machine-learning/how-zsl-uses-google-cloud-to-analyse-acoustic-data) with the Zoological Society of London to solve this problem by classifying gunshot shots. 
 
 Humpback whales actually sing songs, which evolve over time. [Google AI is working with NOAA's Pacific Island Fisheries](https://www.blog.google/technology/ai/pattern-radio-whale-songs/) to better understand whales behavior and migratory pattern and help in protecting them. Audio Classification is a key here where it helps in identifying the correct sounds underwater.
 
-[RedHen Labs](https://www.redhenlab.org/) is a global big data science laboratory and cooperative for research into multimodal communication. Audio is an important component in multimodal communication, so audio classification in big dataset of RedHen's News broadcats can open doors to lot of interesting research opportunities.
+[RedHen Labs](https://www.redhenlab.org/) is a global big data science laboratory and cooperative for research into multi modal communication. Audio is an important component in multi modal communication, so audio classification in big dataset of RedHen's News broadcast can open doors to lot of interesting research opportunities.
 
 Use cases can be countless, so lets jump in to understand how audio classification can be done.
 
 # Audio Classification 
-
+#ToDo
 
 # Using Yamnet
-
+#ToDo
 
 # Problems/Challenges
-
+- Using Yamnet, we can only classify one Audio at a time, Yamnet is still working on this feature to classify multiple files simultaneously
 
 
 # References
