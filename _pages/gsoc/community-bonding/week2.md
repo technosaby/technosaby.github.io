@@ -25,16 +25,16 @@ Prof. Mark Turner from RedHen team reached out to us to have the necessary infra
 6. Once the account is created, we had set up the permissions and symbolic link for work. 
 7. There is a chance of of losing your work when a connection to CWRU HPC drops, so RedHen recommended us to work in Linux screen to solve this problem. A [tutorial](https://linuxize.com/post/how-to-use-linux-screen/) has been shared with the commands required for day to day use. 
 Some of the standard screen control-a commands are:
-	• Ctrl+a c Create a new window (with shell)
-	• Ctrl+a " List all windows
-	• Ctrl+a 0 Switch to window 0 (by number )
-	• Ctrl+a A Rename the current window
-	• Ctrl+a S Split current region horizontally into two regions
-	• Ctrl+a | Split current region vertically into two regions
-	• Ctl+a tab Switch the input focus to the next region
-	• Ctrl+a Ctrl+a Toggle between the current and previous region
-	• Ctrl+a Q Close all regions but the current one
-	• Ctrl+a X Close the current region
+	- Ctrl+a c Create a new window (with shell)
+	- Ctrl+a " List all windows
+	- Ctrl+a 0 Switch to window 0 (by number )
+	- Ctrl+a A Rename the current window
+	- Ctrl+a S Split current region horizontally into two regions
+	- Ctrl+a | Split current region vertically into two regions
+	- Ctl+a tab Switch the input focus to the next region
+	- Ctrl+a Ctrl+a Toggle between the current and previous region
+	- Ctrl+a Q Close all regions but the current one
+	- Ctrl+a X Close the current region
 8. Also we have set up the RSA key to access the servers. 
 
 ## Contributor Summit
