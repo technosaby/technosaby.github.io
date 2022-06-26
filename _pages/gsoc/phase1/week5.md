@@ -100,29 +100,46 @@ To test the created docker image, we can give the following command
 
 ![docker_launch](/assets/images/gsoc/docker_launch.png "Docker Launch")
 As I did not have GPU in my local system, so I did not use (--gpus all) flags
+ 
 
-### Push the local docker image to docker hub
-Now the local docker files need to pushed to the docker hub. The command for that is
-```docker push technosaby/gsoc2022-redhen-audio-tagging```
-This will push all the local docker changes in the docker hub.
+### Build a local singularity sandbox from docker container
 
-![docker_hub](/assets/images/gsoc/docker_hub_snap.png "Docker Hub Update ")
+```sudo /usr/local/bin/singularity build --sandbox singularity_container technosaby/gsoc2022-redhen-audio-tagging```
 
-### Clone the docker hub image in the HPC
-As the docker image is ready in the dockerhub, we can pull the image in the HPC using the following command. 
+### Copy the sandbox to the HPC
+We can do this by SCP
+```scp -r singularity_container/ sxg1263@rider.case.edu:/home/sxg1263/sxg1263gallinahome```
 
-```docker pull technosaby/gsoc2022-redhen-audio-tagging```
+### Running the container in HPC
 
-### Convert Docker image to SIFs in HPC 
-I plan to do this in the next week.
+After loading the singularity using the command,
+```module load singularity/3.8.1```
+we can run the container using,
 
-### Run the container in HPC
-I plan to do this in the next week.
+``` singularity shell -w /home/sxg1263/sxg1263gallinahome/singularity_container```
 
 ## Setbacks
 1. I have done the set up of docker but I could not finish the work for running my script for conversion of the audio files
 2. I also spent a lot of time learning about docker and singularity which impacted my ambitions. 
 3. I also need to convert the docker image in SIF in HPC which will be taken care in the next week.
+
+## Strategies
+
+After creating the local docker container, we could also push it to docker hub
+The command for that is
+```docker push technosaby/gsoc2022-redhen-audio-tagging```
+This will push all the local docker changes in the docker hub.
+
+![docker_hub](/assets/images/gsoc/docker_hub_snap.png "Docker Hub Update ")
+
+After that we can clone the docker hub image in the HPC
+As the docker image is ready in the dockerhub, we can pull the image in the HPC using the following command. 
+
+```docker pull technosaby/gsoc2022-redhen-audio-tagging```
+
+Then we can convert Docker image to SIFs and also run in HPC. 
+
+But this has some challenges. Docker hub has restrictions on free license of size of the docker. So, I will be following the approach of creating the container locally and copying to HPC
 
 ## Tips
 SLURM will by default write logs to the directory from which the job was submitted. This is the current working directory from where I am running "srun" or "sbatch". 
