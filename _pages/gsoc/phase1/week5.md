@@ -76,10 +76,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/$(curl https:/
 
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-
-#### Creation of docker hub account
-I created a free docker hub and created repository with name "gsoc2022-redhen-audio-tagging" on my username "technosaby".
-
 ### Setting up github workflow and docker
 I fixed the [Github workflow](https://github.com/technosaby/gsoc2022/blob/0bc7d1af6f5769fc6c063cf24f34c6d4719ceb53/.github/workflows/docker-publish.yml) and [Dockerfile](https://github.com/technosaby/gsoc2022/blob/0bc7d1af6f5769fc6c063cf24f34c6d4719ceb53/Dockerfile) in my repo such that I can create the docker using the workflow. I also wrote a [docker-compose](https://github.com/technosaby/gsoc2022/blob/0bc7d1af6f5769fc6c063cf24f34c6d4719ceb53/docker-compose.yml) file.
 
@@ -125,6 +121,7 @@ we can run the container using,
 
 ## Strategies
 
+I created a free docker hub and created repository with name "gsoc2022-redhen-audio-tagging" on my username "technosaby".
 After creating the local docker container, we could also push it to docker hub
 The command for that is
 ```docker push technosaby/gsoc2022-redhen-audio-tagging```
