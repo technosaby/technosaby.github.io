@@ -98,13 +98,18 @@ To test the created docker image, we can give the following command
 As I did not have GPU in my local system, so I did not use (--gpus all) flags
  
 
-### Build a local singularity sandbox from docker container
-
+### Build a local singularity sandbox/image from docker container
+Either we can build a sandbox from the docker container, 
 ```sudo /usr/local/bin/singularity build --sandbox singularity_container technosaby/gsoc2022-redhen-audio-tagging```
+or, we can build an (.sif) image,
+```sudo /usr/local/bin/singularity build image_audio_tagging.img docker://technosaby/gsoc2022-redhen-audio-tagging```
 
-### Copy the sandbox to the HPC
-We can do this by SCP
+### Copy the image to the HPC
+We can do this by SCP,
+```scp image_audio_tagging.img sxg1263@rider.case.edu:/home/sxg1263/sxg1263gallinahome```
+We can also copy the sandbox using this command,
 ```scp -r singularity_container/ sxg1263@rider.case.edu:/home/sxg1263/sxg1263gallinahome```
+but the sandbox is larger is size than the image, so it is better to use the .sif image.
 
 ### Running the container in HPC
 
