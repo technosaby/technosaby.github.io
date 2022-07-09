@@ -1,7 +1,7 @@
 ---
 layout : single 
 title: Week 7 (July 3 - July 9) 
-permalink: /gsoc/phase1/week7
+permalink: /gsoc/phase2/week7
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
