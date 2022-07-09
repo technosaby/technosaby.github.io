@@ -12,17 +12,13 @@ sidebar:
 ---
 
 ## Ambitions
- 
-## Ideas
-
-## Challenges
+1. Work on the developing the codebook for the tags
+2. Work on developing a script for filtering tags from the metadata output file
 
 ## Details
+1. I have developed a codebook which will contains all the tags listed in one place. The idea is to upload this to RedHen's website after review.
+2. I also built a filtering script which will read the generated metatdata file (sfx), filter a tag within a certain timeframe and generate the output in a csv file.
 
-## Strategies
-
-## Setbacks
-
-## Successes 
-
-## Tips
+## Next Steps
+1. I am waiting for review of work from mentors 
+2. Decide the next steps of transfer learning
