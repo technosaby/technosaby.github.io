@@ -12,17 +12,17 @@ sidebar:
 ---
 
 ## Ambitions
- 
-## Ideas
+- Update the tag annotation in the ELAN TOOL.
+- Review with mentors and decide the next course of actions
 
-## Challenges
+## Ideas
+I found an option in the ELAN tool which can import a CSV file. So I decided to use this approach to export the tags in a CSV file and import the annotations in ELAN tool.
 
 ## Details
+ELAN is a tool used by the research community to make and view annotations. So if we can add the audio tag annotations in the ELAN tool, then it will benefir the research community more as all the annotations will be on one place.
+1. I generated the tags in a [CSV](https://github.com/technosaby/gsoc2022/blob/main/tagging_audio_effects/samples/2022-07-10_PresidentXiJinping-Why_I_proposed_the_Belt_and_Road-hNKTbMx8PFk.csv) file (similar to SFX file). 
+2. Then I imported the EAF file, MP4 file and the generated CSV file in the ELAN tool, the tag annotations can be seen in the [ELAN](../../../assets/images/gsoc/elan_tag_mp4_sample.png). 
 
-## Strategies
 
 ## Setbacks
-
-## Successes 
-
-## Tips
+When I imported an MKV file in the ELAN, the annotations appear but the video does not get loaded with the following [error](../../../assets/images/gsoc/error_elan_mkv.png) 
