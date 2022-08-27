@@ -50,8 +50,6 @@ gsoc_nav:
         url: /gsoc/phase2/week14
       - title: Week 15 (Aug 28 - Sep 4)  
         url: /gsoc/phase2/week15
-      - title : "Week 16 (Sep 5 - Sep 12)"
-        url: /gsoc/phase2/week16
   - title: "Consolidated Report"
     url: /gsoc/report      
 
