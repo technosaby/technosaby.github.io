@@ -1,3 +1,17 @@
+---
+layout : single 
+title: Week 14 
+permalink: /gsoc/phase2/report
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/code.jpg
+author: Sabyasachi Ghosal
+sidebar:
+  nav: gsoc_nav
+---
+
+
 # Introduction
 
 In GSoc 2022, I worked with [Redhen Labs](https://www.redhenlab.org/summer-of-code/red-hen-lab-gsoc-2022-projects). The objective was to develop a machine learning model to tag sound effects in streams (like police sirens in a news-stream) of Red Hen’s data. A single stream of data can contain multiple sound effects, so the model should be able to label them from a group of known sound effects like a Multi-label classification problem. [YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) is used a pre-trained model in this project. The video files are converted into audio files. Then they are tagged by YamNet for the sound effects and the results are dumped into different kinds of files to understand the tagging on the video files.

@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Gsoc"
+  - title: "Gsoc'22"
     url: /gsoc/gsoc
   - title: "Projects"
     url: /projects/ml/supervised_learning
@@ -48,11 +48,10 @@ gsoc_nav:
         url: /gsoc/phase2/week13
       - title: "Week 14 (Aug 21 - Aug 27)"
         url: /gsoc/phase2/week14
-      - title: Week 15 (Aug 28 - Sep 4)  
-        url: /gsoc/phase2/week15
+      - title: Week 15 (Aug 28 - Sep 5)
+        url: /gsoc/phase2/week15  
   - title: "Consolidated Report"
-    url: /gsoc/report      
-
+    url: /gsoc/phase2/report
 
 
 others_nav:
